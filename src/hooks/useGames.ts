@@ -7,7 +7,7 @@ export interface Platform {
   slug: string;
 }
 
-//Rawg API does not return platform objects, but rather objects with platforms as a property, so we define that in out interface
+//Rawg API does not return platform objects, but rather objects with platforms as a property, so I define that in the interface
 
 export interface Game {
   id: number;
