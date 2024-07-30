@@ -2,12 +2,7 @@ import { GameQuery } from "../App";
 import apiClient from "../services/api-client";
 import { FetchResponse } from "../services/api-client";
 import { useQuery } from "@tanstack/react-query";
-
-export interface Platform {
-  id: number;
-  name: string;
-  slug: string;
-}
+import { Platform } from "./usePlatforms";
 
 //Rawg API does not return platform objects, but rather objects with platforms as a property, so I define that in the interface
 
