@@ -7,3 +7,4 @@ This is a react app that displays available video games to play on any platform
 - React
 - Typescript
 - Chakra
+- React Query
