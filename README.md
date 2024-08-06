@@ -7,6 +7,6 @@ Utilizes React Query to handle fetching and caching data and Zustand for managin
 
 - React
 - Typescript
-- Chakra
+- Chakra UI
 - React Query
 - Zustand
