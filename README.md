@@ -10,3 +10,4 @@ Utilizes React Query to handle fetching and caching data and Zustand for managin
 - Chakra UI
 - React Query
 - Zustand
+- React Router
