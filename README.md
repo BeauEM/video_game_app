@@ -9,3 +9,4 @@ Utilizes React Query to handle fetching and caching data.
 - Typescript
 - Chakra
 - React Query
+- Zustand
