@@ -1,6 +1,8 @@
 import useScreenshots from "../hooks/useScreenshots";
 import { Image, SimpleGrid } from "@chakra-ui/react";
 
+//component for loading game screenshots to be used in GameDetailPage
+
 interface Props {
   gameId: number;
 }
