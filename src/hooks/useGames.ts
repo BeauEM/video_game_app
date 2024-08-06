@@ -2,22 +2,11 @@ import { useInfiniteQuery } from "@tanstack/react-query";
 import ms from "ms";
 import APIClient, { FetchResponse } from "../services/api-client";
 import useGameQueryStore from "../store";
-import { Platform } from "./usePlatforms";
+import { Game } from "../entities/Game";
 
 //Rawg API does not return platform objects, but rather objects with platforms as a property, so I define that in the interface
 
 const apiClient = new APIClient<Game>("/games");
-
-export interface Game {
-  id: number;
-  name: string;
-  slug: string;
-  description_raw: string;
-  background_image: string;
-  parent_platforms: { platform: Platform }[];
-  metacritic: number;
-  rating_top: number;
-}
 
 const useGames = () => {
   const gameQuery = useGameQueryStore((s) => s.gameQuery);
