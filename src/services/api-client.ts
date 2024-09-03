@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-const RAWG_KEY = import.meta.env.VITE_RAWG_API_KEY;
+const RAWG_KEY = process.env.VITE_RAWG_API_KEY;
 
 export interface FetchResponse<T> {
   count: number;
