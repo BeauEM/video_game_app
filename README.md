@@ -2,6 +2,7 @@
 
 This is a vanilla React app that displays available video games to play on any platform. Uses the RAWG API to load games, platforms, genres and more.
 Utilizes React Query to handle fetching / caching data and Zustand for managing state throughout the app.
+[![My Skills](https://skillicons.dev/icons?i=ts,react,vite,nodejs)](https://skillicons.dev)
 
 ## ✨ Features
 
